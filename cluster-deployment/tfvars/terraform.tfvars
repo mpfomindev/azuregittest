@@ -1,5 +1,5 @@
 resource_group_name = "rg-mofoaks"
-location = "australiaeast"
+location = "centralus"
 tags = {
   environment = "dev"
   owner = "willmofo"
@@ -9,7 +9,7 @@ tags = {
 user_assigned_identity_name = "dev-uai-mofoaks"
 acr_name = "devacrmofoaks"
 vm_size = "Standard_D2s_v3"
-aks_username = "willmofo"
+aks_username = "mofo"
 aks_name = "dev-mofoaks"
 azure_monitor_workspace_name = "dev-amw-mofoaks"
 grafana_name = "dev-grafana-mofoaks"
