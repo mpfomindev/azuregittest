@@ -30,7 +30,7 @@ variable "github_organization_target" {
 }
 variable "github_repository" {
   type        = string
-  default     = "akstest"
+  default     = "azuregittest"
   description = "The name of the GitHub repository to target"
 }
 variable "identity_rg_name" {
